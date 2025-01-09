@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AppGames/static/css/main.fcd890b4.css",
+    "main.js": "/AppGames/static/js/main.48094ee1.js",
+    "static/media/PIEDRA PAPEL TIJERA.jpg": "/AppGames/static/media/PIEDRA PAPEL TIJERA.4ba91586751ec5cb6d10.jpg",
+    "index.html": "/AppGames/index.html",
+    "static/media/salir.svg": "/AppGames/static/media/salir.fe4ee15642b712e3e3f97c6ef9d45fdf.svg",
+    "main.fcd890b4.css.map": "/AppGames/static/css/main.fcd890b4.css.map",
+    "main.48094ee1.js.map": "/AppGames/static/js/main.48094ee1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcd890b4.css",
+    "static/js/main.48094ee1.js"
+  ]
+}
