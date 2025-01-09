@@ -1,0 +1,128 @@
+.cell2{
+    width: 70%;
+    height: 60vh;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pantalla-btn{
+    width: 100%;
+    height: 10%;
+}
+.btn-salir{
+    width: 10%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.salir-svg{
+    width: 100%;
+    height: 100%;
+}
+.pantalla-game{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    color:white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.patalla-combat{
+    width: 70%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.ataque{
+    width: 70%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.ataque-jugador{
+    width: 30%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.ataque-jugador:hover{
+    transform: scale(1.1);
+}
+.ataque-jugador1{
+    width: 30%;
+    height: 90%;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.694);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.ataque-jugador1:hover{
+    transform: scale(1.05);
+}
+.resultado{
+    color:chartreuse;
+    font-size: 16px;
+}
+.info{
+    font-size: 16px;
+    color:white;
+    font-weight: bold;
+}
+
+@media(max-width: 500px){
+    .cell2{
+        width: 85%;
+        height: 80vh;
+        border: 5px solid black;
+        border-radius: 20px;
+        background-color: rgb(78, 78, 78);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .patalla-combat{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+    .pantalla-btn{
+        width: 100%;
+        height: 15%;
+    }
+    .btn-salir{
+        width: 15%;
+        height: 100%;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+}
