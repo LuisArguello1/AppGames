@@ -1,0 +1,131 @@
+.board{
+    width: 35%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0.5em;
+}
+.celda {
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    border: 2px solid rgb(42, 241, 184);
+    cursor: pointer;
+}
+.is-select{
+    background-color: rgb(27, 114, 208);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.turno{
+    width: 30%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 1em;
+}
+.cell3{
+    width: 70%;
+    height: 60vh;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.pantalla-btn2{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.link{
+    width: 100%;
+    height: 10%;
+}
+.btn-salir2{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+.winner{
+    color: white;
+    width: 100%;
+    text-align: center;
+    grid-column: span 2;
+}
+.reinicio{
+    color: white;
+    text-align: center;
+    grid-column: span 2;
+    border-radius: 6px;
+}
+.btn-reinicio{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: coral;
+    border-radius: 10px;
+    border: none;
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+    transition-duration: 0.5s;
+}
+.btn-reinicio:focus{
+    transform: scale(.95);
+}
+
+@media (max-width: 500px){
+    .cell3{
+        width: 85%;
+        height: 80vh;
+        border: 5px solid black;
+        border-radius: 20px;
+        background-color: rgb(78, 78, 78);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .pantalla-btn2{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .link{
+        width: 15%;
+        height: 100%;
+    }
+    .board{
+        width: 90%;
+        height: 50%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 0.5em;
+    }
+    .turno{
+        width: 80%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 0.5em;
+    }
+}
