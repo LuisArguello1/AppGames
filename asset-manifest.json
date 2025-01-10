@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/AppGames/static/css/main.fec7f5da.css",
-    "main.js": "/AppGames/static/js/main.60848464.js",
+    "main.css": "/AppGames/static/css/main.9c723f57.css",
+    "main.js": "/AppGames/static/js/main.41c46674.js",
     "static/media/PIEDRA PAPEL TIJERA.jpg": "/AppGames/static/media/PIEDRA PAPEL TIJERA.4ba91586751ec5cb6d10.jpg",
     "static/media/ticTacDoe.webp": "/AppGames/static/media/ticTacDoe.291fad1d09e69a3407fe.webp",
+    "static/media/game3.jpg": "/AppGames/static/media/game3.c14df7e2ddfc73a39499.jpg",
+    "static/media/ahorcado6.png": "/AppGames/static/media/ahorcado6.5e56567143fbcb0faf67.png",
+    "static/media/ahorcado5.png": "/AppGames/static/media/ahorcado5.f5c9e00bc320fb1c9461.png",
+    "static/media/ahorcado4.png": "/AppGames/static/media/ahorcado4.ee832f787fab654d257f.png",
+    "static/media/ahorcado3.png": "/AppGames/static/media/ahorcado3.036365df6dfd9f9fac1f.png",
+    "static/media/ahorcado1.png": "/AppGames/static/media/ahorcado1.c3ff7dfcb41959cdd10e.png",
+    "static/media/ahorcado2.png": "/AppGames/static/media/ahorcado2.b549db031b4378f473f6.png",
+    "static/media/ahorcadoJuego.webp": "/AppGames/static/media/ahorcadoJuego.bcdb8cf1af5baac57f83.webp",
     "index.html": "/AppGames/index.html",
     "static/media/salir.svg": "/AppGames/static/media/salir.fe4ee15642b712e3e3f97c6ef9d45fdf.svg",
-    "main.fec7f5da.css.map": "/AppGames/static/css/main.fec7f5da.css.map",
-    "main.60848464.js.map": "/AppGames/static/js/main.60848464.js.map"
+    "main.9c723f57.css.map": "/AppGames/static/css/main.9c723f57.css.map",
+    "main.41c46674.js.map": "/AppGames/static/js/main.41c46674.js.map"
   },
   "entrypoints": [
-    "static/css/main.fec7f5da.css",
-    "static/js/main.60848464.js"
+    "static/css/main.9c723f57.css",
+    "static/js/main.41c46674.js"
   ]
 }
