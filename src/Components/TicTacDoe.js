@@ -118,7 +118,7 @@ const TicTacDoe = () => {
   return (
     <>
         <div className="App">
-            <h3>Tic Tac Doe</h3>
+            <h1>Tic Tac Doe</h1>
             <div className='cell3'>
                 <div className='pantalla-btn2'>
                     <Link to='/' className='link'>

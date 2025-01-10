@@ -73,7 +73,7 @@ const PiedraPapelTijera = () => {
 
   return (
     <div className='App'>
-        <h3>Piedra | Papel | Tijera</h3>
+        <h1>Piedra | Papel | Tijera</h1>
         <div className='cell2'>
             <div className='pantalla-btn'>
                 <Link to='/'>
