@@ -15,7 +15,7 @@ import "../Css/ahorcado.css"
 const Ahorcado = () => {
     
     const [tecla, setTecla] = useState(["A","B","C","D","E","F","G","H","I","J","K","L","M","N","Ñ","O","P","Q","R","S","T","U","V","W","X","Y","Z"])
-    const [palabras, setPalabras] = useState(["ARBOL","REFRIGERADORA","TELEVISOR","PERRO","COMPUTADORA","ESCOBA","ALMOHADA","LEOPARDO","HIPOPOTAMO","PARED"])
+    const [palabras, setPalabras] = useState(["ARBOL","REFRIGERADORA","TELEVISOR","PERRO","COMPUTADORA","ESCOBA","ALMOHADA","LEOPARDO","HIPOPOTAMO","PARED","ESCRITORIO","LABORATORIO","EDIFICIO","DINOSAURIO","PELUCHE","ASCENSOR","ESPEJO","LICUADORA"])
     let [numAleatorio, setNumAleatorio] = useState(null)
     let [palabraSelecionada, setPalabraSelecionada] = useState("")
     let [letrasCorrectas, setLetrasCorrectas] = useState([])

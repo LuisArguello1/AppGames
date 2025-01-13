@@ -2,9 +2,11 @@ import "./App.css";
 import PiedraPapelTijera from "./Components/PiedraPapelTijera";
 import TicTacDoe from "./Components/TicTacDoe"
 import Ahorcado from "./Components/Ahorcado";
+import Multiplicaciones from "./Components/Multiplicaciones";
 import game1 from "./Img/PIEDRA PAPEL TIJERA.jpg";
 import game2 from "./Img/ticTacDoe.webp"
 import game3 from "./Img/game3.jpg"
+import game4 from "./Img/multiplicacion.jpg"
 import { Link, HashRouter, Routes, Route } from "react-router-dom";
 
 
@@ -42,7 +44,14 @@ function App() {
                     </div>
                   </Link>
                 </div>
-                <div className="app-game"></div>
+                <div className="app-game">
+                  <Link to="/multiplicaciones">
+                      <div className="app-game-1">
+                        <img src={game4} alt="Game1" className="game"></img>
+                        <p className="titulo-game">Multiplicaciones</p>
+                      </div>
+                  </Link>
+                </div>
                 <div className="app-game"></div>
                 <div className="app-game"></div>
                 <div className="app-game"></div>
@@ -62,6 +71,10 @@ function App() {
         <Route
           path="/ahorcado"
           element={<Ahorcado></Ahorcado>}
+        ></Route>
+        <Route
+          path="/multiplicaciones"
+          element={<Multiplicaciones></Multiplicaciones>}
         ></Route>
       </Routes>
     </HashRouter>
