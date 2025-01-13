@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/AppGames/static/css/main.9c723f57.css",
-    "main.js": "/AppGames/static/js/main.41c46674.js",
+    "main.css": "/AppGames/static/css/main.384cc358.css",
+    "main.js": "/AppGames/static/js/main.8f4e4495.js",
+    "static/media/multiplicacion.jpg": "/AppGames/static/media/multiplicacion.546c8baec9fc2d85412d.jpg",
     "static/media/PIEDRA PAPEL TIJERA.jpg": "/AppGames/static/media/PIEDRA PAPEL TIJERA.4ba91586751ec5cb6d10.jpg",
     "static/media/ticTacDoe.webp": "/AppGames/static/media/ticTacDoe.291fad1d09e69a3407fe.webp",
     "static/media/game3.jpg": "/AppGames/static/media/game3.c14df7e2ddfc73a39499.jpg",
@@ -14,11 +15,11 @@
     "static/media/ahorcadoJuego.webp": "/AppGames/static/media/ahorcadoJuego.bcdb8cf1af5baac57f83.webp",
     "index.html": "/AppGames/index.html",
     "static/media/salir.svg": "/AppGames/static/media/salir.fe4ee15642b712e3e3f97c6ef9d45fdf.svg",
-    "main.9c723f57.css.map": "/AppGames/static/css/main.9c723f57.css.map",
-    "main.41c46674.js.map": "/AppGames/static/js/main.41c46674.js.map"
+    "main.384cc358.css.map": "/AppGames/static/css/main.384cc358.css.map",
+    "main.8f4e4495.js.map": "/AppGames/static/js/main.8f4e4495.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c723f57.css",
-    "static/js/main.41c46674.js"
+    "static/css/main.384cc358.css",
+    "static/js/main.8f4e4495.js"
   ]
 }
